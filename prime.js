@@ -1,16 +1,16 @@
-function prime(num){
+function prime(number){
 var count=0;
-for(i=0;i<(num**1/2);i++)
+for(i=0;i<(number**1/2);i++)
 {
- if(num%i==0){
+ if(number%i==0){
     count++
 }
 if(count==1)
 {
-return false;
+console.log("Not a prime no.");
 }
 else
 {
-return true;
+console.log("prime no.");
 }
 }
