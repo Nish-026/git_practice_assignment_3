@@ -7,10 +7,10 @@ for(i=2;i<(num**1/2);i++)
 }
 if(count==1)
 {
-return false;
+console.log("Not a prime number");
 }
 else
 {
-return true;
+console.log("yay!! prime number";
 }
 }
